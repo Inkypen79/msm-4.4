@@ -50,6 +50,7 @@ obj-$(CONFIG_RESET_CONTROLLER)	+= reset/
 obj-y				+= tty/
 obj-y				+= char/
 
+obj-y				+= elliptic/
 
 
 obj-$(CONFIG_CONNECTOR)		+= connector/
