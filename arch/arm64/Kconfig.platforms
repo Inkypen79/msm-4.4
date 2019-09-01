@@ -124,6 +124,26 @@ config MACH_XIAOMI_A1
 	help
 	  Build for Xiaomi Mi 5 (gemini)
 
+config MACH_XIAOMI_A4
+	bool "A4 board"
+	help
+	  Build for Xiaomi Mi Note 2 (scorpio)
+
+config MACH_XIAOMI_A7
+	bool "A7 board"
+	help
+	  Build for Xiaomi Mi 5s (capricorn)
+
+config MACH_XIAOMI_A8
+	bool "A8 board"
+	help
+	  Build for Xiaomi Mi MIX (lithium)
+
+config MACH_XIAOMI_B7
+	bool "B7 board"
+	help
+	  Build for Xiaomi Mi 5s Plus (natrium)
+
 endchoice
 
 config ARCH_ROCKCHIP
