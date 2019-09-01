@@ -123,6 +123,11 @@ config MACH_XIAOMI_A1
 	help
 	  Build for Xiaomi Mi 5 (gemini)
 
+config MACH_XIAOMI_A8
+	bool "A8 board"
+	help
+	  Build for Xiaomi Mi MIX (lithium)
+
 endchoice
 
 config ARCH_ROCKCHIP
